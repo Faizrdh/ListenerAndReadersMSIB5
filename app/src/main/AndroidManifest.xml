@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ListenersReaders_Class"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.activity.ExplorationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.NilaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.EndActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.SoalQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.PelajaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.JoinKelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.KelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.PanduanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.bottomnavbar.BottomNavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_navigation" />
+        <activity
+            android:name=".view.activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.RoleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
